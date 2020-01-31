@@ -37,7 +37,7 @@ function displayPics(){
   }
   console.log(rando);
   // TODO: In a sentence or two, explain why the previous line of code threw an error when we changed the variable declaration from `var to `let`.
-  // PUT YOUR RESPONSE IN THIS COMMENT
+  // We need the scope of rando to reach outside of while-loop. Let declaration will limit the scope of rando inside while.
   console.log(viewed);
 
   for (var i = 0; i < 3; i++){
